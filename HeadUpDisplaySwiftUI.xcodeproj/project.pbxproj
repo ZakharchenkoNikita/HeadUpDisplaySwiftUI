@@ -11,6 +11,7 @@
 		111FE9DD26E9195900C91960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FE9DC26E9195900C91960 /* ContentView.swift */; };
 		111FE9DF26E9195B00C91960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111FE9DE26E9195B00C91960 /* Assets.xcassets */; };
 		111FE9E226E9195B00C91960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111FE9E126E9195B00C91960 /* Preview Assets.xcassets */; };
+		111FE9EA26E91B8300C91960 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FE9E926E91B8300C91960 /* HUDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		111FE9DE26E9195B00C91960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111FE9E126E9195B00C91960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		111FE9E326E9195B00C91960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111FE9E926E91B8300C91960 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				111FE9DA26E9195900C91960 /* HeadUpDisplaySwiftUIApp.swift */,
 				111FE9DC26E9195900C91960 /* ContentView.swift */,
+				111FE9E926E91B8300C91960 /* HUDView.swift */,
 				111FE9DE26E9195B00C91960 /* Assets.xcassets */,
 				111FE9E326E9195B00C91960 /* Info.plist */,
 				111FE9E026E9195B00C91960 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111FE9EA26E91B8300C91960 /* HUDView.swift in Sources */,
 				111FE9DD26E9195900C91960 /* ContentView.swift in Sources */,
 				111FE9DB26E9195900C91960 /* HeadUpDisplaySwiftUIApp.swift in Sources */,
 			);
